@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="25sp"
+      android:text="Select Your Favourite Languages"
+      android:layout_marginTop="150dp"
+      android:layout_gravity="center"/>
+
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Java"
+      android:id="@+id/check_java"/>
+
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Python"
+      android:id="@+id/check_python"/>
+
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Kotlin"
+      android:id="@+id/check_kotlin"/>
+
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="C"
+      android:id="@+id/check_c"/>
+
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Pearl"
+      android:id="@+id/check_pearl"/>
+
+
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Show Result"
+      android:id="@+id/btnResult"
+      android:layout_gravity="center"
+      android:layout_marginTop="25dp"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=" "
+      android:id="@+id/txtResult"
+      android:layout_gravity="center"
+      android:layout_marginTop="25dp"
+  />
+
+
+</LinearLayout>
